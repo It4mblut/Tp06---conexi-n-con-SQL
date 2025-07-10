@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj": {}
+    "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj": {}
   },
   "projects": {
-    "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj": {
+    "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj",
+        "projectUniqueName": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj",
         "projectName": "PruebaDeDapperYSql",
-        "projectPath": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj",
+        "projectPath": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\PruebaDeDapperYSql.csproj",
         "packagesPath": "C:\\Users\\49008593\\.nuget\\packages\\",
-        "outputPath": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\obj\\",
+        "outputPath": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "AfnnlItuClxtZLVq3JCUqo6sNaw1vqKt44pS2JokDnc=",
+  "Hash": "2ze8iXVuPjyy7VmBZ/5E54UZU5Mh2BZ2iICXZNMe5KI=",
   "Source": "PruebaDeDapperYSql",
   "BasePath": "_content/PruebaDeDapperYSql",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "PruebaDeDapperYSql\\wwwroot",
       "Source": "PruebaDeDapperYSql",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\css\\site.css",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\favicon.ico",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\js\\site.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "PruebaDeDapperYSql",
       "SourceType": "Discovered",
-      "ContentRoot": "Z:\\2025\\Porgramacion\\PruebaDeDapperYSql\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\PruebaDeDapperYSql\\wwwroot\\",
       "BasePath": "_content/PruebaDeDapperYSql",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",

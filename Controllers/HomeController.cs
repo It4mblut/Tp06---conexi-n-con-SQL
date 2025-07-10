@@ -16,8 +16,11 @@ public class HomeController : Controller
     public IActionResult Index()
     {
         ViewBag.clients = DB.saveClients();
+        ViewBag.tableRegister=DB.saveTableRegisters();
+        ViewBag.waiters=DB.saveWaiters();
+        ViewBag.foods=DB.saveFoods();
 
-        
+
         return View();
     }
 }

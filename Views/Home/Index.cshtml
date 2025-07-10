@@ -7,11 +7,9 @@
     <p>Bienvenidos al sitio web de gurmet ORTO</p>
 </div>
 
-@foreach(var client in ViewBag.clients){
-
-<p>@client.nombre @client.apellido</p>
-
-
-
-
+@foreach(var tableRegister in ViewBag.tableRegister){
+    <div>
+    
+        <p>@tableRegister.fecha</p>
+    </div>
 }
