@@ -18,6 +18,44 @@ public static class DB
         return clientes;
     }
 
+    public static List<comidas> saveFoods(){
+
+        List<comidas> foods = new List<comidas>();
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            string query= "SELECT * FROM comidas";
+            foods = connection.Query<comidas>(query).ToList();
+
+        }
+        return foods;
+    }
+
+    public static List<mozos> saveWaiters(){
+
+        List<mozos> waiters = new List<mozos>();
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            string query= "SELECT * FROM mozos";
+            waiters = connection.Query<mozos>(query).ToList();
+
+        }
+        return waiters;
+    }
+
+    public static List<registroMesas> saveTableRegisters(){
+        List<registroMesas> tableRegisters = new List<registroMesas>();
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            string query= "SELECT * FROM registroMesas";
+            tableRegisters = connection.Query<registroMesas>(query).ToList();
+
+        }
+        return tableRegisters;
+    }
+
+
+
+
     public static int deleteClient(clientes client){
         string query="DELETE FROM clientes WHERE idCliente = @idCliente";
         int modifiedRegisters = 0;
@@ -48,6 +86,17 @@ public static class DB
         }
 
         return modifiedRegisters;
+    }
+    public static void addFood(comidas foodToAdd){
+
+        string query="INSERT INTO comidas(nombre, idTipoComida, precio, sinGluten) VALUES(@nombre, @TipoComida, @precio, @sinGluten)";
+        int modifiedRegisters = 0;
+
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            modifiedRegisters=connection.Execute(query, new{nombre=foodToAdd.nombre, TipoComida=foodToAdd.idTipoComida, precio=foodToAdd.precio, sinGluten=foodToAdd.sinGluten});
+        }
+
     }
 
 
