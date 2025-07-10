@@ -30,6 +30,18 @@ public static class DB
         return foods;
     }
 
+
+    public static List<mesas> saveTables(){
+
+        List<mesas> tables = new List<mesas>();
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            string query= "SELECT * FROM mesas";
+            tables = connection.Query<mesas>(query).ToList();
+
+        }
+        return tables;
+    }
     public static List<mozos> saveWaiters(){
 
         List<mozos> waiters = new List<mozos>();

@@ -3,13 +3,21 @@
 }
 
 <div>
-    <h1>Index</h1>
+    <h1>Holis</h1>
     <p>Bienvenidos al sitio web de gurmet ORTO</p>
 </div>
 
-@foreach(var tableRegister in ViewBag.tableRegister){
-    <div>
-    
-        <p>@tableRegister.fecha</p>
-    </div>
-}
+<form action='@Url.Action("elegirAccion", "Home")' method="post"> 
+
+
+<select name="accion">
+<option selected>elija una opcion</option>
+<option>Listar clientes</option>
+<option>Eliminar clientes</option>
+<option>Modificar datos de mozos</option>
+<option>Agregar comidas</option>
+<option>Listar registros</option>
+</select>
+
+<input type="submit" name="submit" value="elegir">
+</form>

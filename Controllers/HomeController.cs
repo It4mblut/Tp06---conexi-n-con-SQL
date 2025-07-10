@@ -15,12 +15,28 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
-        ViewBag.clients = DB.saveClients();
-        ViewBag.tableRegister=DB.saveTableRegisters();
-        ViewBag.waiters=DB.saveWaiters();
-        ViewBag.foods=DB.saveFoods();
+        
 
 
         return View();
     }
+
+    public IActionResult elegirAccion(string accion){
+
+        if(accion=="Listar clientes" || accion=="Eliminar clientes" || accion=="Modificar datos de mozos" || accion=="Agregar comidas" || accion=="Listar registros"){
+            
+            ViewBag.clients = DB.saveClients();
+            ViewBag.tableRegister=DB.saveTableRegisters();
+            ViewBag.waiters=DB.saveWaiters();
+            ViewBag.tables=DB.saveTables();
+
+            return View(accion);
+        }else{
+            return View("Index");
+        }
+
+
+    }
+
+
 }

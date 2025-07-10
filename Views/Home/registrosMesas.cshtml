@@ -1,0 +1,35 @@
+@foreach(var tableRegister in ViewBag.tableRegister){
+    <div>
+        <form action='@Url.Action("Index", "Home")' method="post" enctype="multipart/form-data"> 
+
+        <input type="hidden" name="" value="@tableRegister">
+
+        <p>fecha: @tableRegister.fecha</p>
+
+
+        @foreach(var client in ViewBag.clients){
+            @if(client.idCliente==tableRegister.idCliente){
+                <p>cliente: @client.nombre</p>
+                <input type="hidden" name="" value="@client">
+            }
+        }
+
+
+        @foreach(var table in ViewBag.tables){
+            @if(table.idMesa==tableRegister.idMesa){
+                <p>mesa: @table.numero</p>
+                <input type="hidden" name="" value="@table">
+            }
+        }
+
+        @foreach(var waiter in ViewBag.waiters){
+            @if(waiter.idMozo==tableRegister.idMozo){
+                <p>mozo: @waiter.nombre</p>
+                <input type="hidden" name="" value="@waiter">
+            }
+        }
+
+        <input type="submit" name="submit" value="elegir">
+        </form>
+    </div>
+}
