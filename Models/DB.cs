@@ -91,23 +91,16 @@ public static class DB
     }
 
 
-    public static int modifyWaiter(mozos waiter, string newSurname, string newName){
+    public static int modifyWaiter(int idMozo, string newSurname, string newName){
         int modifiedRegisters = 0;
-        if(newName==null){
-            newName=waiter.nombre;
+        
 
-        }
-        if(newSurname==null){
-            newSurname=waiter.apellido;
-
-        }
-
-
-        string query="UPDATE mozos SET nombre= @newName, apellido=@newSurname WHERE idMozo = @pidMozo";
+        string query = "UPDATE mozos SET nombre= @newName, apellido=@newSurname WHERE idMozo = @pidMozo";
 
         using(SqlConnection connection = new SqlConnection(_connectionString)){
 
-            modifiedRegisters=connection.Execute(query, new{newName, newSurname, pidMozo=waiter.idMozo});
+            modifiedRegisters = connection.Execute(query, new { newName, newSurname, pidMozo = idMozo });
+
         }
 
         return modifiedRegisters;

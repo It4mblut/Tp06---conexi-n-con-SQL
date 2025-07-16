@@ -61,4 +61,12 @@ public class HomeController : Controller
         return View("Index");
     }
 
+[HttpPost]
+    public IActionResult modificarMozo(string nombre, string apellido, int idMozo){
+        
+        
+        DB.modifyWaiter(idMozo, apellido, nombre);
+
+        return View("Index");
+    }
 }

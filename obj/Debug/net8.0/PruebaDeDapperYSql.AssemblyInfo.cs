@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("PruebaDeDapperYSql")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+962c8758c038d2a844ac745340bc419d467f60c3")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c1a8d0692b5b0cbd6e9c6cc32ae2ade8ce331869")]
 [assembly: System.Reflection.AssemblyProductAttribute("PruebaDeDapperYSql")]
 [assembly: System.Reflection.AssemblyTitleAttribute("PruebaDeDapperYSql")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

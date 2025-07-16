@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LQs0lY3SEa8Y/K+CfDdjq6HRAae4TOmidZEXY3jacGV+3t+yARIGIWdVEUHEsvFh6wu2QGbFw8j3MhKzCuKUxA==",
+  "dgSpecHash": "xqVbs9h4A3C7j++52zpN8n4EUisWoRkq3mjRepJucHLcSPpt8wd+EAg5ylfE6vLvLAS0X51WTX3iGe/lAg7Zfw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\49008593\\Desktop\\aw\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
+  "projectFilePath": "C:\\Users\\49008593\\Desktop\\wuw\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\49008593\\.nuget\\packages\\azure.core\\1.38.0\\azure.core.1.38.0.nupkg.sha512",
     "C:\\Users\\49008593\\.nuget\\packages\\azure.identity\\1.11.4\\azure.identity.1.11.4.nupkg.sha512",
