@@ -1705,11 +1705,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\49008593\\Desktop\\eee\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
+      "projectUniqueName": "C:\\Users\\49008593\\Desktop\\aw\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
       "projectName": "PruebaDeDapperYSql",
-      "projectPath": "C:\\Users\\49008593\\Desktop\\eee\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
+      "projectPath": "C:\\Users\\49008593\\Desktop\\aw\\Tp06---conexi-n-con-SQL\\PruebaDeDapperYSql.csproj",
       "packagesPath": "C:\\Users\\49008593\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\49008593\\Desktop\\eee\\Tp06---conexi-n-con-SQL\\obj\\",
+      "outputPath": "C:\\Users\\49008593\\Desktop\\aw\\Tp06---conexi-n-con-SQL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

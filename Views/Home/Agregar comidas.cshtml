@@ -1,0 +1,19 @@
+<form action='@Url.Action("agregarComida", "Home")' method="post"> 
+
+nombre comida:<input type="text" name="nombre" required><br>
+
+tipo comida: <select name="idTipoComida">
+@foreach(var tipoComida in ViewBag.foodTypes){
+<option value=@tipoComida.idTipoComida>@tipoComida.nombre</option>
+}
+</select><br>
+precio: <input type="number" name="precio" required><br>
+
+contiene gluten?: <select name="sinGluten">
+<option selected value=true>tienen gluten</option>
+<option value=false>no tiene gluten</option>
+</select><br>
+
+
+<input type="submit" name="submit" value="elegir">
+</form>

@@ -1,0 +1,11 @@
+
+<form action='@Url.Action("borrarCliente", "Home")' method="post"> 
+
+@foreach(var client in ViewBag.clients){
+    <div>
+        <p>cliente: @client.nombre @client.apellido</p>
+    </div>
+    <button type="submit" name="idCliente" value=@client.idCliente>BORRAR</button>
+}
+
+</form>

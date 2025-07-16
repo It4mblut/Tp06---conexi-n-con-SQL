@@ -29,6 +29,7 @@ public class HomeController : Controller
             ViewBag.tableRegister=DB.saveTableRegisters();
             ViewBag.waiters=DB.saveWaiters();
             ViewBag.tables=DB.saveTables();
+            ViewBag.foodTypes=DB.saveFoodTypes();
 
             return View(accion);
         }else{
@@ -38,5 +39,26 @@ public class HomeController : Controller
 
     }
 
+
+ [HttpPost]
+    public IActionResult agregarComida(string nombre, int idTipoComida, double precio, bool sinGluten){
+        if(nombre != null && precio != null){
+            DB.addFood(nombre, idTipoComida, precio, sinGluten);
+        }
+        
+
+        return View("Index");
+    }
+
+
+[HttpPost]
+    public IActionResult borrarCliente(int idCliente){
+        
+        if(idCliente != null){
+            DB.deleteClient(idCliente);
+        }
+
+        return View("Index");
+    }
 
 }

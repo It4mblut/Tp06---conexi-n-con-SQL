@@ -8,4 +8,6 @@ public class comidas
     public int idTipoComida { get; private set; }
     public double precio { get; private set; }
     public bool sinGluten { get; private set; }
+
+
 }

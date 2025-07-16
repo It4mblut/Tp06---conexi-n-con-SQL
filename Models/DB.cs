@@ -17,6 +17,17 @@ public static class DB
         }
         return clientes;
     }
+    public static List<tiposComidas> saveFoodTypes(){
+
+        List<tiposComidas> foodTypes = new List<tiposComidas>();
+        using(SqlConnection connection = new SqlConnection(_connectionString)){
+
+            string query= "SELECT * FROM tiposComidas";
+            foodTypes = connection.Query<tiposComidas>(query).ToList();
+
+        }
+        return foodTypes;
+    }
 
     public static List<comidas> saveFoods(){
 
@@ -68,16 +79,18 @@ public static class DB
 
 
 
-    public static int deleteClient(clientes client){
-        string query="DELETE FROM clientes WHERE idCliente = @idCliente";
+    public static int deleteClient(int idClient){
+        string query="DELETE FROM clientes WHERE idCliente = @pidCliente";
         int modifiedRegisters = 0;
         using(SqlConnection connection = new SqlConnection(_connectionString)){
 
-            modifiedRegisters=connection.Execute(query, new{idCliente=client.idCliente});
+            modifiedRegisters=connection.Execute(query, new{pidCliente=idClient});
         }
 
         return modifiedRegisters;
     }
+
+
     public static int modifyWaiter(mozos waiter, string newSurname, string newName){
         int modifiedRegisters = 0;
         if(newName==null){
@@ -90,23 +103,23 @@ public static class DB
         }
 
 
-        string query="UPDATE mozos SET nombre= @newName, apellido=@newSurname WHERE idMozo = @idMozo";
+        string query="UPDATE mozos SET nombre= @newName, apellido=@newSurname WHERE idMozo = @pidMozo";
 
         using(SqlConnection connection = new SqlConnection(_connectionString)){
 
-            modifiedRegisters=connection.Execute(query, new{newName, newSurname, idMozo=waiter.idMozo});
+            modifiedRegisters=connection.Execute(query, new{newName, newSurname, pidMozo=waiter.idMozo});
         }
 
         return modifiedRegisters;
     }
-    public static void addFood(comidas foodToAdd){
+    public static void addFood(string nombre, int idTipoComida, double precio, bool sinGluten){
 
         string query="INSERT INTO comidas(nombre, idTipoComida, precio, sinGluten) VALUES(@nombre, @TipoComida, @precio, @sinGluten)";
         int modifiedRegisters = 0;
 
         using(SqlConnection connection = new SqlConnection(_connectionString)){
 
-            modifiedRegisters=connection.Execute(query, new{nombre=foodToAdd.nombre, TipoComida=foodToAdd.idTipoComida, precio=foodToAdd.precio, sinGluten=foodToAdd.sinGluten});
+            modifiedRegisters=connection.Execute(query, new{nombre, TipoComida=idTipoComida, precio, sinGluten});
         }
 
     }
