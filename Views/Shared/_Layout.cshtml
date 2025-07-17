@@ -4,13 +4,16 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - NombreProyecto</title>
+    <title>ortoCousine.com</title>
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
 </head>
 
 <body>
     <header>
-        NombreProyecto
+        <form action='@Url.Action("Index", "Home")' method="post"> 
+            <input type="submit" name="submit" value="inicio">
+        </form>
+        ortoCousine
     </header>
 
     <main role="main">
@@ -18,7 +21,7 @@
     </main>
 
     <footer>
-        &copy; @DateTime.Now.Year - NombreProyecto
+        &copy; @DateTime.Now.Year - ortoCousine
     </footer>
 
     <script src="~/lib/jquery/dist/jquery.min.js"></script>

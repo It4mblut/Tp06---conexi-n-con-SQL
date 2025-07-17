@@ -1,9 +1,11 @@
-<form action='@Url.Action("Index", "Home")' method="post"> 
-<input type="submit" name="submit" value="volver">
-</form>
+<link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
 
 @foreach(var client in ViewBag.clients){
     <div>
-        <p>cliente: @client.nombre @client.apellido</p>
+        <p>@client.nombre @client.apellido</p>
+        <p>dni: @client.DNI</p>
+        <p>fecha de nacimiento: @client.FechaNacimiento</p>
+        <p>contacto: @client.Email</p>
     </div>
 }
+

@@ -1,11 +1,3 @@
-<form action='@Url.Action("Index", "Home")' method="post"> 
-    <input type="submit" name="submit" value="volver">
-</form>
-
-<form action='@Url.Action("elegirAccion", "Home")' method="post"> 
-    <button type="submit" name="accion" value="Modificar datos de mozos">resetear nombres y apellidos</button>
-</form>
-
 
 @foreach(var waiter in ViewBag.waiters){
 <form action='@Url.Action("modificarMozo", "Home")' method="post">     
@@ -16,7 +8,7 @@
     Nombre:<input type="text" name="nombre" value=@waiter.nombre><br>
     Apellido:<input type="text" name="apellido" value=@waiter.apellido><br>
     
-    <input type="hidden" name="idMozo" value=@waiter.idMozo/>
+    <input type="hidden" name="idMozo" value=@waiter.idMozo>
     <button type="submit">subir cambios</button>
 
 </form>    
