@@ -1,5 +1,5 @@
 <link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
-
+<section>
 @foreach(var client in ViewBag.clients){
     <div>
         <p>@client.nombre @client.apellido</p>
@@ -8,4 +8,4 @@
         <p>contacto: @client.Email</p>
     </div>
 }
-
+</section>

@@ -1,16 +1,17 @@
-
+<link rel="stylesheet" href="~/css/estilo.css"/>
+</section>
 @foreach(var waiter in ViewBag.waiters){
 <form action='@Url.Action("modificarMozo", "Home")' method="post">     
     <div>
-        <p>mozo: @waiter.nombre @waiter.apellido</p>
+        <p> Nombre:<input type="text" name="nombre" value=@waiter.nombre></p>
+        <p> Apellido:<input type="text" name="apellido" value=@waiter.apellido></p>
+    
+        <input type="hidden" name="idMozo" value=@waiter.idMozo>
+        <button type="submit">subir cambios</button>       
     </div>
 
-    Nombre:<input type="text" name="nombre" value=@waiter.nombre><br>
-    Apellido:<input type="text" name="apellido" value=@waiter.apellido><br>
-    
-    <input type="hidden" name="idMozo" value=@waiter.idMozo>
-    <button type="submit">subir cambios</button>
+
 
 </form>    
 }
-
+</section>

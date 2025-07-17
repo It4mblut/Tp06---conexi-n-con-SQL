@@ -1,6 +1,10 @@
 {
   "Files": [
     {
+      "Id": "C:\\Users\\49008593\\Desktop\\AAA\\Tp06---conexi-n-con-SQL\\wwwroot\\css\\estilo.css",
+      "PackagePath": "staticwebassets\\css\\estilo.css"
+    },
+    {
       "Id": "C:\\Users\\49008593\\Desktop\\AAA\\Tp06---conexi-n-con-SQL\\wwwroot\\css\\site.css",
       "PackagePath": "staticwebassets\\css\\site.css"
     },

@@ -1,0 +1,12 @@
+
+div{
+    background-color: gainsboro;
+    border-radius: 20px;
+    width: 40%;
+    height: auto;
+    margin-top: 3%;
+    margin-right: 4%;
+    margin-left: 4%;
+    padding: 1%;
+    float: left;
+}

@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "RbqQpaYSmuDTF6HYspFB4sg0xlNp2IJX6IrQsvDqk14=",
+  "Hash": "sdQliNjZ93Ebf+KtOkTImZejy2SlQ09NqnmJd3hMLHg=",
   "Source": "PruebaDeDapperYSql",
   "BasePath": "_content/PruebaDeDapperYSql",
   "Mode": "Default",
@@ -16,6 +16,25 @@
     }
   ],
   "Assets": [
+    {
+      "Identity": "C:\\Users\\49008593\\Desktop\\AAA\\Tp06---conexi-n-con-SQL\\wwwroot\\css\\estilo.css",
+      "SourceId": "PruebaDeDapperYSql",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\49008593\\Desktop\\AAA\\Tp06---conexi-n-con-SQL\\wwwroot\\",
+      "BasePath": "_content/PruebaDeDapperYSql",
+      "RelativePath": "css/estilo.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\estilo.css"
+    },
     {
       "Identity": "C:\\Users\\49008593\\Desktop\\AAA\\Tp06---conexi-n-con-SQL\\wwwroot\\css\\site.css",
       "SourceId": "PruebaDeDapperYSql",

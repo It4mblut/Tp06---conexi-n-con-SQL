@@ -1,12 +1,16 @@
+<link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
 
-
+<section>
+    
 <form action='@Url.Action("borrarCliente", "Home")' method="post"> 
 
 @foreach(var client in ViewBag.clients){
     <div>
         <p>cliente: @client.nombre @client.apellido</p>
+        <button type="submit" name="idCliente" value=@client.idCliente>BORRAR</button>
     </div>
-    <button type="submit" name="idCliente" value=@client.idCliente>BORRAR</button>
+    
 }
 
 </form>
+</section>

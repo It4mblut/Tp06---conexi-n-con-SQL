@@ -1,1 +1,30 @@
-este era opcional profe (pero nos quedo la logica hecha)
+<link rel="stylesheet" href="~/css/estilo.css" asp-append-version="true" />
+este era opcional profe (esta medio que para el...)
+
+
+@foreach(var tableRegister in ViewBag.tableRegister){
+    <div>
+
+        <p>fecha: @tableRegister.fecha</p>
+
+
+        @foreach(var client in ViewBag.clients){
+            @if(client.idCliente==tableRegister.idCliente){
+                <p>cliente: @client.nombre @client.apellido</p>
+            }
+        }
+
+
+        @foreach(var table in ViewBag.tables){
+            @if(table.idMesa==tableRegister.idMesa){
+                <p>mesa: @table.numero</p>
+            }
+        }
+
+        @foreach(var waiter in ViewBag.waiters){
+            @if(waiter.idMozo==tableRegister.idMozo){
+                <p>mozo: @waiter.nombre @waiter.apellido</p>
+            }
+        }
+    </div>
+}
